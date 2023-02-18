@@ -11,8 +11,7 @@ type Data = {
 }
 
 export default async (req: NextRequest) => {
-  const r = await fetch("https://naver.com")
-  console.log(r.)
+  // const r = await fetch("https://naver.com")
   // console.log(clickup_api)
   return NextResponse.json({
     name: `Hello, from ${req.body} I'm now an Edge Function!`,
