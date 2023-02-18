@@ -1,5 +1,5 @@
 exclude: 
-  - development
+  - dev-*
   - qa
   - feature-*
 delete_closed_pr: true
